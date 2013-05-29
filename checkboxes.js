@@ -49,6 +49,7 @@
 
 })(jQuery, window, document);
 
-
-$(".ff-check-multi").multicheckbox();
+$(function() {
+  $(".ff-check-multi").multicheckbox();
+});
 
